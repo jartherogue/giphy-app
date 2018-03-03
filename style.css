@@ -1,0 +1,51 @@
+body {
+    background-image: url(http://weclipart.com/gimg/9895B7F804E06766/MLB-vector-logos.jpg);
+    height: 100%;
+    width: 100%;
+}
+.jumbotron {
+    color: #ffffff;
+    background-color: #000088;
+    padding: 25px; 
+    margin: 0px 50px; 
+}
+.firstHeader {
+    padding: 25px; 
+    background-color: #cc0000;
+    text-align: center;
+}
+.buttonArea {
+    margin-top: 25px; 
+}
+.buttonRow {
+    background-color: #000088;
+    color: #ffffff; 
+    text-align: center;
+    margin-top: 25px;
+    padding: 25px; 
+    border: black solid 2px; 
+}
+.gifButton {
+    margin: 10px; 
+    background-color: #ffffff;
+    color: #cc0000; 
+    padding: 10px; 
+    font-size: 20px; 
+}
+.contentArea {
+    margin-top: 25px; 
+}
+.images {
+    color: #cc0000; 
+    background-color: #ffffff;
+    text-align: center;
+    border: solid black 2px; 
+    padding: 25px;
+}
+.gifSearch {
+    color:  #000088; 
+    background-color: #ffffff;
+    text-align: center;
+    border: solid black 2px;
+    padding: 25px; 
+}

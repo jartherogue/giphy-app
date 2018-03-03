@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 class='firstHeader'>Best Baseball .gif Viewer</h1>
+    </div>
+    <div class="container bigWrapper">
+        <div class="row buttonArea">
+            <div class="col-sm-12 buttonRow" id='createButton'>This is where our buttons will append to</div>
+        </div>
+        <div class="row contentArea">
+            <!-- <div class="col-sm-12 output"> -->
+            <div class="col-sm-8 images" id='displayGif'>This div box will hold our prepended gif images once they load</div>
+            <div class="col-sm-4 gifSearch">
+                <form id="searchForm">
+                    <label for="findGif">Search for .gifs!</label>
+                    <input type="text" id="findGif">
+                    <br>
+                    <input id="addGif" type="submit" value="Find me a .gif">
+                </form>
+            </div>
+            <!-- </div> -->
+        </div>
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
